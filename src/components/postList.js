@@ -14,6 +14,7 @@ const PostList = (props) => {
         <button onClick={(e) => props.vote(e, post, "plus")}>VOTE UP!</button>
         <button onClick={(e) => props.vote(e, post, "minus")}>FUCK this! </button>
         <br></br>
+        {post.comments.length > 0 && <Comments comments={post.comments} />}
     </div>    
             
       

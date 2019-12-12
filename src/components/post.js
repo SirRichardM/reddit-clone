@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import PostList from "./postList"
 import CreatePost from "./createPost"
+import Comments from "./comments"
 
 
 class Post extends Component {
@@ -14,11 +15,13 @@ class Post extends Component {
       content: "",
       author: "Ya Boy",
       voteCount: 0,
+      comments: [],
       posts: [{
         title: "this is a post",
         content: "My post",
         author: "still ya boy",
-        voteCount: 0
+        voteCount: 0,
+        comments: ["this post sucks", "nah it doesnt, fuck you"]
       }]
   
     }
