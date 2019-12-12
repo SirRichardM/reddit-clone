@@ -50,6 +50,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   border: 3px solid black;
+  margin: 10px 300px;
   
 }
 
@@ -60,4 +61,10 @@ h1 {
 
 body {
   text-align: center;
+
+  
+}
+
+button {
+  
 }
